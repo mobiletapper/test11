@@ -6,7 +6,7 @@ local coreGui = game:GetService("CoreGui")
 local library = {flags = {}, toggled = true, keybind = Enum.KeyCode.RightShift, dragSpeed = 0.1}
 
 local themes = {
-    Dark = {
+    Depart = {
         TextColor = Color3.fromRGB(255, 255, 255),
         MainFrame = Color3.fromRGB(30, 30, 30),
         TabBackground = Color3.fromRGB(20, 20, 20),
@@ -19,21 +19,22 @@ local themes = {
         Section = Color3.fromRGB(20, 20, 20),
         Button = Color3.fromRGB(30, 30, 30),
         ButtonMouseOver = Color3.fromRGB(40, 40, 40),
-        ToggleEnabled = Color3.fromRGB(179, 129, 148),
-        ToggleEnabledMouseOver = Color3.fromRGB(209, 159, 178),
+        ToggleEnabled = Color3.fromRGB(128, 0, 128),  -- Updated to purple
+        ToggleEnabledMouseOver = Color3.fromRGB(153, 50, 204),  -- Updated to lighter purple
         ToggleDisabled = Color3.fromRGB(30, 30, 30),
         ToggleDisabledMouseOver = Color3.fromRGB(40, 40, 40),
         Box = Color3.fromRGB(30, 30, 30),
         BoxFocused = Color3.fromRGB(40, 40, 40),
         Slider = Color3.fromRGB(30, 30, 30),
         SliderMouseOver = Color3.fromRGB(40, 40, 40),
-        SliderFill = Color3.fromRGB(179, 129, 148),
-        SliderFillSliding = Color3.fromRGB(209, 159, 178),
+        SliderFill = Color3.fromRGB(128, 0, 128),  -- Updated to purple
+        SliderFillSliding = Color3.fromRGB(153, 50, 204),  -- Updated to lighter purple
         Dropdown = Color3.fromRGB(30, 30, 30),
         DropdownMouseOver = Color3.fromRGB(40, 40, 40),
         DropdownContent = Color3.fromRGB(20, 20, 20),
         ColorPicker = Color3.fromRGB(20, 20, 20),
         ColorPickerBoxes = Color3.fromRGB(30, 30, 30)
+  
     },
     Light = {
         TextColor = Color3.fromRGB(40, 40, 40),
