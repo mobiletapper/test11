@@ -6,7 +6,7 @@ local coreGui = game:GetService("CoreGui")
 local library = {flags = {}, toggled = true, keybind = Enum.KeyCode.RightShift, dragSpeed = 0.1}
 
 local themes = {
-    Depart = {
+    Dark = {
         TextColor = Color3.fromRGB(255, 255, 255),
         MainFrame = Color3.fromRGB(30, 30, 30),
         TabBackground = Color3.fromRGB(20, 20, 20),
@@ -67,7 +67,7 @@ local themes = {
 }
 
 local themeObjects = {}
-for i, v in next, themes.Depart do
+for i, v in next, themes.Dark do
     themeObjects[i] = {}
 end
 
