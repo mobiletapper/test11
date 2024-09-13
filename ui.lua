@@ -34,7 +34,6 @@ local themes = {
         DropdownContent = Color3.fromRGB(20, 20, 20),
         ColorPicker = Color3.fromRGB(20, 20, 20),
         ColorPickerBoxes = Color3.fromRGB(30, 30, 30)
-  
     },
     Light = {
         TextColor = Color3.fromRGB(40, 40, 40),
