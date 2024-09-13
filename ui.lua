@@ -67,7 +67,7 @@ local themes = {
 }
 
 local themeObjects = {}
-for i, v in next, themes.Dark do
+for i, v in next, themes.Depart do
     themeObjects[i] = {}
 end
 
