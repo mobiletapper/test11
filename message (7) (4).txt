@@ -4046,4 +4046,5 @@ do
 		NewInd.Position = UDim2.new(0,Position.X,0,Position.Y + (table.find(Notifications.Notifs, notification) * 25))
 		return notification
 	end
-end
+end
+return Library
