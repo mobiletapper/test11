@@ -4048,3 +4048,8 @@ do
 	end
 end
 return Library
+return {
+    Window = function() 
+        return {}
+    end
+}
